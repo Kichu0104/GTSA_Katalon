@@ -38,6 +38,3 @@ jobs:
             -testSuitePath="Test Suites/GTSA - Meet Creation" \
             -executionProfile="default" \
             -browserType="Chrome"
-
-^X
-
