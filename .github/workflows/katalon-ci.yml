@@ -2,9 +2,9 @@ name: Katalon Test Suite CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ integration ]
   pull_request:
-    branches: [ master ]
+    branches: [ integration ]
 
 jobs:
   run-katalon:
