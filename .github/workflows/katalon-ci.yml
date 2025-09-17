@@ -1,0 +1,43 @@
+name: Katalon Test Suite CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  run-katalon:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Set up Java (Katalon requires Java 8+)
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '11'
+
+      # 3. Download Katalon Runtime Engine
+      - name: Download Katalon
+        run: |
+          curl -L https://download.katalon.com/8.6.5/Katalon_Studio_Engine_Linux_64-8.6.5.tar.gz -o katalon.tar.gz
+          tar -xzf katalon.tar.gz
+          mv Katalon_Studio_Engine* katalon
+
+      # 4. Run the Test Suite
+      - name: Execute Test Suite
+        run: |
+          ./katalon/katalonc \
+            -noSplash -runMode=console \
+            -projectPath="$(pwd)/GTSA_WEB.prj" \
+            -testSuitePath="Test Suites/GTSA - Meet Creation" \
+            -executionProfile="default" \
+            -browserType="Chrome"
+
+^X
+
