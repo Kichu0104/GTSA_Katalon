@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Create Meet_New</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>89ed01a3-3fa8-4c84-a0bf-7b16e7be52d4</testCaseGuid>
-</TestCaseEntity>
