@@ -27,8 +27,12 @@ jobs:
           tar -xvzf Katalon_Studio_Engine_Linux_64-9.0.0.tar.gz
           mv Katalon_Studio_Engine_Linux_64-9.0.0 katalon
 
+      - name: Make Katalon executable
+        run: chmod +x ./katalon/katalonc
+
       - name: Run Katalon Test Suite
-        run: |
+         run: |
+          ls -R
           ./katalon/katalonc \
           -noSplash \
           -runMode=console \
