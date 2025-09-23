@@ -2,10 +2,10 @@ name: Run Katalon Tests
 
 on:
   push:
-    branches: [ "integration" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "integration" ]
-  workflow_dispatch:  # allow manual trigger
+    branches: [ "master" ]
+  workflow_dispatch: # allow manual run
 
 jobs:
   katalon-test:
@@ -21,7 +21,7 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: Download Katalon
+      - name: Download Katalon Engine
         run: |
           wget https://github.com/katalon-studio/katalon-studio/releases/download/v9.0.0/Katalon_Studio_Engine_Linux_64-9.0.0.tar.gz
           tar -xvzf Katalon_Studio_Engine_Linux_64-9.0.0.tar.gz
@@ -32,7 +32,13 @@ jobs:
           ./katalon/katalonc \
           -noSplash \
           -runMode=console \
-          -projectPath="$(pwd)/YourProject.prj" \
+          -projectPath="$(pwd)/GTSA-WEB.prj" \
           -retry=0 \
-          -testSuitePath="Test Suites/Regression" \
+          -testSuitePath="Test Suites/GTSA-Meet Creation" \
           -apiKey=${{ secrets.KATALON_API_KEY }}
+
+      - name: Upload Katalon Reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: katalon-reports
+          path: Reports/**
