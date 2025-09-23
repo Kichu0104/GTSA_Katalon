@@ -31,15 +31,15 @@ jobs:
         run: chmod +x ./katalon/katalonc
 
       - name: Run Katalon Test Suite
-         run: |
+        run: |
           ls -R
           ./katalon/katalonc \
-          -noSplash \
-          -runMode=console \
-          -projectPath="GTSA-WEB.prj" \
-          -retry=0 \
-          -testSuitePath="Test Suites/GTSA-Meet Creation" \
-          -apiKey=${{ secrets.KATALON_API_KEY }}
+            -noSplash \
+            -runMode=console \
+            -projectPath="GTSA-WEB.prj" \
+            -retry=0 \
+            -testSuitePath="Test Suites/GTSA-Meet Creation" \
+            -apiKey=${{ secrets.KATALON_API_KEY }}
 
       - name: Upload Katalon Reports
         uses: actions/upload-artifact@v4
