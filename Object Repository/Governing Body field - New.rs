@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Governing Body field - New</name>
+   <tag></tag>
+   <elementGuidId>1370aa18-ef97-418b-8277-6846168b33c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-319lph-ValueContainer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div[3]/div[2]/div/p/div/div/div/form/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ae268cb9-f320-4ba4-a5e4-60beecc24165</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-319lph-ValueContainer</value>
+      <webElementGuid>0d1e0f9f-3680-44dc-b5bc-795d9af5bfbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Select Governing Body*</value>
+      <webElementGuid>18fae0af-af78-4cd8-ab44-3824e36549dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 grid-margin&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;makeStyles-root-1&quot;]/div[2]/div[1]/p[@class=&quot;MuiTypography-root MuiTypography-body1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 grid-margin&quot;]/div[@class=&quot;card&quot;]/form[1]/div[@class=&quot;card-body mb-5&quot;]/div[@class=&quot;row mt-4&quot;]/div[@class=&quot;col-md-4 col-lg-4 mb-4 mb-lg-0&quot;]/div[@class=&quot;css-4tchtv-container&quot;]/div[@class=&quot;css-18jlx7c-control&quot;]/div[@class=&quot;css-319lph-ValueContainer&quot;]</value>
+      <webElementGuid>89b7a310-38a0-4b1b-b3d6-b58dcc04f5e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div[3]/div[2]/div/p/div/div/div/form/div/div/div/div/div/div</value>
+      <webElementGuid>aea209af-bdb3-49b7-882f-213f7136a13c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Template'])[1]/following::div[5]</value>
+      <webElementGuid>723fd264-db66-4ee6-b665-b76cceb4889e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Details'])[1]/following::div[11]</value>
+      <webElementGuid>6e50949e-0369-409e-a995-7f81b0ac5aa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select State*'])[1]/preceding::div[7]</value>
+      <webElementGuid>c2ab484c-b802-4247-aaff-b9ec97ff3f4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/div/div</value>
+      <webElementGuid>19d35d7a-eb7f-4191-9175-c6677cb943f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Select Governing Body*' or . = ' Select Governing Body*')]</value>
+      <webElementGuid>1edd8f89-b46a-4e6e-ae8a-54dcdd94eaf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

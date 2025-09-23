@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Upload file - New</name>
+   <tag></tag>
+   <elementGuidId>73cf7981-b30b-456c-b5a6-4a30a3ad14e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div[2]/div/div/div/div/div/div/div/div[3]/div[2]/div[1]/p/div/div/div/form/div/div[3]/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.dropzone</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>54de120d-df52-4c39-bf78-7a4a4100ca6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropzone </value>
+      <webElementGuid>5bb88d54-8a98-4405-8608-501071e2af12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Drag &amp; drop the Hy-Tek CSV, Lynx EVT, or MDB file to upload</value>
+      <webElementGuid>1ef65f58-7b52-471a-9a7f-b5661956b2dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 grid-margin&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;makeStyles-root-1&quot;]/div[2]/div[1]/p[@class=&quot;MuiTypography-root MuiTypography-body1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 grid-margin&quot;]/div[@class=&quot;card&quot;]/form[1]/div[@class=&quot;card-body mb-5&quot;]/div[@class=&quot;mt-4&quot;]/div[@class=&quot;dropzone&quot;]</value>
+      <webElementGuid>2445bd4d-cadf-4e47-943f-94ee143ed07a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div[3]/div[2]/div/p/div/div/div/form/div/div[3]/div</value>
+      <webElementGuid>1ef4c3af-e13d-4075-a8b2-e58b5f2b439a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='High School'])[1]/following::div[6]</value>
+      <webElementGuid>453b0eaf-2470-430a-8746-a588e0c431c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select is focused ,type to refine list, press Down to open the menu,'])[1]/following::div[9]</value>
+      <webElementGuid>72625ae0-19ee-471e-a402-5b61a0770ce9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[3]/div</value>
+      <webElementGuid>af429178-74d2-4014-a95f-bb00a63745f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Drag &amp; drop the Hy-Tek CSV, Lynx EVT, or MDB file to upload' or . = 'Drag &amp; drop the Hy-Tek CSV, Lynx EVT, or MDB file to upload')]</value>
+      <webElementGuid>81a5d3d1-e164-4139-bffa-b36ffc439d63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

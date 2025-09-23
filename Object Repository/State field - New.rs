@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>State field - New</name>
+   <tag></tag>
+   <elementGuidId>be7055d9-f435-45a5-b107-65d57e2b3997</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div[3]/div[2]/div/p/div/div/div/form/div/div/div[3]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ff19ce01-c330-46a0-b0a2-1670934eede0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-319lph-ValueContainer</value>
+      <webElementGuid>caa6e9af-8d24-4f3a-8475-9592aa32cda6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select State*</value>
+      <webElementGuid>01d96f87-fb0d-4c0c-b545-30a11d1a7669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;container-scroller&quot;]/div[@class=&quot;container-fluid page-body-wrapper&quot;]/div[@class=&quot;main-panel&quot;]/div[@class=&quot;content-wrapper&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 grid-margin&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;makeStyles-root-1&quot;]/div[2]/div[1]/p[@class=&quot;MuiTypography-root MuiTypography-body1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 grid-margin&quot;]/div[@class=&quot;card&quot;]/form[1]/div[@class=&quot;card-body mb-5&quot;]/div[@class=&quot;row mt-4&quot;]/div[@class=&quot;col-md-4 col-lg-4 mb-4 mb-lg-0&quot;]/div[@class=&quot;css-4tchtv-container&quot;]/div[@class=&quot;css-18jlx7c-control&quot;]/div[@class=&quot;css-319lph-ValueContainer&quot;]</value>
+      <webElementGuid>1f89a15e-d70c-46c5-b927-35b2d943085d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div/div/div/div/div/div/div/div[3]/div[2]/div/p/div/div/div/form/div/div/div[3]/div/div/div</value>
+      <webElementGuid>144043fa-e704-462f-8a68-f3447015437e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Governing Body*'])[1]/following::div[9]</value>
+      <webElementGuid>ca919040-df8c-43b0-8319-7cea8314ff59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New Template'])[1]/following::div[15]</value>
+      <webElementGuid>0c1c8c0b-d6c4-4104-99ea-a40cfebaf013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Season*'])[1]/preceding::div[5]</value>
+      <webElementGuid>7106958f-27d3-455d-a486-7d8af1e9282c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>0d3ef305-f857-4f01-83f6-7add8bd25f6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Select State*' or . = 'Select State*')]</value>
+      <webElementGuid>435d3080-03aa-4309-9889-b21703757cb1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

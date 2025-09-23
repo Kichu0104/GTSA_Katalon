@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Close icon - New</name>
+   <tag></tag>
+   <elementGuidId>4077971e-df31-4b29-b89e-4148bbd9c095</elementGuidId>
+   <imagePath>Screenshots/Targets/Page_GTSA - Web App/Close icon - New.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Page_GTSA - Web App/Close icon - New.png</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.MuiBox-root.MuiBox-root-5.hoverable-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='CloseModal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>86597341-c712-4d16-adb0-c80688c854c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBox-root MuiBox-root-5 hoverable-image</value>
+      <webElementGuid>3f74856e-ef3c-4d73-9387-eb9b485028f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/media/closeModal.273b82b67c30b884f29b2c436f4a6939.svg</value>
+      <webElementGuid>c8a706c2-64d6-4ce2-87fb-ab6be8e02fe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>CloseModal</value>
+      <webElementGuid>4389693c-3114-4ae2-b7e7-a693e240567e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/div[@class=&quot;fade modal show&quot;]/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/div[@class=&quot;MuiBox-root MuiBox-root-3&quot;]/img[@class=&quot;MuiBox-root MuiBox-root-5 hoverable-image&quot;]</value>
+      <webElementGuid>be878964-3eaa-4c5d-b63a-8407ca771dc4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='CloseModal']</value>
+      <webElementGuid>122a2931-3d17-46da-aa08-da1f727c4c69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/img</value>
+      <webElementGuid>a9c3d1d5-f970-4f4b-b5e2-1fc4f7257eae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/media/closeModal.273b82b67c30b884f29b2c436f4a6939.svg' and @alt = 'CloseModal']</value>
+      <webElementGuid>e4f477cc-eaaf-4da6-a986-b676a22816d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
