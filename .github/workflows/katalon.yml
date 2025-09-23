@@ -2,9 +2,9 @@ name: Run Katalon Tests
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "integration" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "integration" ]
   workflow_dispatch: # allow manual run
 
 jobs:
