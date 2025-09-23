@@ -1,0 +1,38 @@
+name: Run Katalon Tests
+
+on:
+  push:
+    branches: [ "integration" ]
+  pull_request:
+    branches: [ "integration" ]
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  katalon-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
+
+      - name: Download Katalon
+        run: |
+          wget https://github.com/katalon-studio/katalon-studio/releases/download/v9.0.0/Katalon_Studio_Engine_Linux_64-9.0.0.tar.gz
+          tar -xvzf Katalon_Studio_Engine_Linux_64-9.0.0.tar.gz
+          mv Katalon_Studio_Engine_Linux_64-9.0.0 katalon
+
+      - name: Run Katalon Test Suite
+        run: |
+          ./katalon/katalonc \
+          -noSplash \
+          -runMode=console \
+          -projectPath="$(pwd)/YourProject.prj" \
+          -retry=0 \
+          -testSuitePath="Test Suites/Regression" \
+          -apiKey=${{ secrets.KATALON_API_KEY }}
