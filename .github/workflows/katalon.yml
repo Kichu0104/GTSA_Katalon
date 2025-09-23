@@ -32,7 +32,7 @@ jobs:
           ./katalon/katalonc \
           -noSplash \
           -runMode=console \
-          -projectPath="$(pwd)/GTSA-WEB.prj" \
+          -projectPath="GTSA-WEB.prj" \
           -retry=0 \
           -testSuitePath="Test Suites/GTSA-Meet Creation" \
           -apiKey=${{ secrets.KATALON_API_KEY }}
